@@ -11,14 +11,39 @@ body{
 }
 main{
   min-height:100vh;
-  background:linear-gradient(to  right top, #65dfc9, #6cdbeb); 
+  background:linear-gradient(to  right top, #65dfc9, #6cdbeb);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .glass{
+  background: #fff;
   min-height: 80vh;
   width: 60%;
+  background: linear-gradient(to right bottom,
+  rgba(255, 255, 255, 0.7),
+  rgba(255, 255, 255, 0.3));
+border-radius: 20px;
+z-index: 2;
+backdrop-filter:blur(2rem);
+}
+.circule1, .circule2{
   background: #fff;
-  background: linear-gradient()
+  background: linear-gradient(to right bottom,
+  rgba(255, 255, 255, 0.9),
+  rgba(255, 255, 255, 0.1));
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  top: 5%;
+  left: 10%;
+
+}
+.circule1{
+  top: 5%;
+  right: 15%;
+  background: red;
+}
+.circule1{
+bottom: 5%;
 }
