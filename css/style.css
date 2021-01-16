@@ -1,0 +1,24 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+  min-height:100vh;
+  background:linear-gradient(to  right top, #65dfc9, #6cdbeb); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.glass{
+  min-height: 80vh;
+  width: 60%;
+  background: #fff;
+  background: linear-gradient()
+}
