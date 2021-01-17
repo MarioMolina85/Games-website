@@ -10,6 +10,22 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
 }
+h1{
+  color: #426696;
+  font-weight: 600;
+  font-size: 2rem;
+  opacity: 0.8;
+}
+h3{
+  color: #426696;
+  font-weight: 600;
+  opacity: 0.8;
+}
+h2{
+  color: #658ec6;
+  font-weight: 500;
+  opacity: 0.8;
+}
 /* estilos del cntenido principal */
 main{
   min-height:100vh;
@@ -21,7 +37,7 @@ main{
 .glass{
   background: #fff;
   min-height: 80vh;
-  width: 60%;
+  width: 80%;
   background: linear-gradient(to right bottom,
   rgba(255, 255, 255, 0.7),
   rgba(255, 255, 255, 0.3));
@@ -32,18 +48,100 @@ main{
   flex-direction: row;
 
 }
+img{
+  max-width: 100%;
+}
 /* estilos del user*/
 .dashboard{
   flex: 1;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   text-align: center;
   background: linear-gradient(to right bottom,
+  rgba(255, 255, 255, 0.8),
+  rgba(255, 255, 255, 0.3));
+}
+.link{
+  display: flex;
+  margin: 1rem 0rem;
+  padding: .8rem 5rem;
+  cursor: pointer;
+}
+.link:hover{
+  background: linear-gradient(to right bottom,
   rgba(255, 255, 255, 0.9),
   rgba(255, 255, 255, 0.3));
+  color: #000;
+}
+.link h2{
+  padding: 0rem 1rem;
 }
 .games{
   flex: 2;
+}
+.pro{
+background:linear-gradient(to  right top, #65dfc9, #6cdbeb);
+border-radius: 2rem;
+color: #fff;
+display: flex;
+align-items: center;
+font-size: 20px;
+}
+.pro img{
+width: 100%;
+}
+.pro h2{
+  width: 65%;
+  color: #fff;
+  font-weight: 600;
+}
+
+.status{
+  margin-bottom: 1rem;
+}
+.status input{
+  background: linear-gradient(to right bottom,
+  rgba(255, 255, 255, 0.9),
+  rgba(255, 255, 255, 0.3));
+  border: none;
+  width: 50%;
+  padding: 0.7rem;
+  border-radius: 2rem;
+  font-weight: 600;
+  color: #ccc;
+}
+.games{
+  margin: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.card{
+  display: flex;
+  background: linear-gradient(to left top,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.8) );
+  border-radius: 1rem;
+  margin: 2rem 0rem;
+  padding: 2rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.4);
+}
+.card .card-info{
+  margin-left: 20px;
+}
+.card .card-info h2{
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.progress{
+  background:linear-gradient(to  right top, #65dfc9, #6cdbeb);
+  width: 100%;
+  height: 25%;
+}
+.progress::after{
+  content: "";
+  width: 100%;
 }
